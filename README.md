@@ -83,22 +83,22 @@ Si has abierto el dispositivo o estás usando un NodeMCU externo para pruebas, e
 
     Control: Los pines GPIO 0 (DC) y GPIO 15 (CS) gestionan el flujo de comandos. Es vital que GPIO 15 tenga una resistencia de pull-down (que el SmallTV ya trae internamente).
 
-    Descripción: Vista del circuito impreso donde se integran los componentes. Se aprecia el bus de datos hacia la pantalla, los reguladores de voltaje y la disposición de los componentes SMD que permiten un diseño compacto dentro de la carcasa cúbica.
-![PCB del proyecto](/screensho/pcb.jpg)
+Descripción: Vista del circuito impreso donde se integran los componentes. Se aprecia el bus de datos hacia la pantalla, los reguladores de voltaje y la disposición de los componentes SMD que permiten un diseño compacto dentro de la carcasa cúbica.
+![PCB del proyecto](/screenshot/pcb.jpg)
     
-    Descripción: Detalle del corazón del proyecto: el chip ESP8266EX. Es un SoC de bajo consumo con stack TCP/IP integrado que permite la conexión WiFi y la gestión de la pantalla TFT. A su derecha se observa el oscilador de 26.000 MHz.
+Descripción: Detalle del corazón del proyecto: el chip ESP8266EX. Es un SoC de bajo consumo con stack TCP/IP integrado que permite la conexión WiFi y la gestión de la pantalla TFT. A su derecha se observa el oscilador de 26.000 MHz.
 ![esp8266](/screenshot/esp8266.jpg)
     
-    Descripción: Parte posterior del panel LCD. Se trata de una pantalla con resolución de 240x240 píxeles que utiliza el controlador ST7789, ofreciendo ángulos de visión amplios y colores vivos para la interfaz del reloj.
+Descripción: Parte posterior del panel LCD. Se trata de una pantalla con resolución de 240x240 píxeles que utiliza el controlador ST7789, ofreciendo ángulos de visión amplios y colores vivos para la interfaz del reloj.
 ![pantalla](/screenshot/pantalla.jpg)
    
-    Descripción: Esta es la pantalla principal del dispositivo. Muestra la dirección IP local para el acceso a la configuración, la hora sincronizada por NTP con segundos en color púrpura, el estado del clima mediante iconos dinámicos, la temperatura en grados Celsius y la fecha completa con el día de la semana.
+Descripción: Esta es la pantalla principal del dispositivo. Muestra la dirección IP local para el acceso a la configuración, la hora sincronizada por NTP con segundos en color púrpura, el estado del clima mediante iconos dinámicos, la temperatura en grados Celsius y la fecha completa con el día de la semana.
 ![digital](/screenshot/reloj-digital.jpg)
     
-    Descripción: Un diseño clásico de esfera analógica. Las manecillas de hora, minutos y segundos son personalizables en color a través de la web. Este modo prioriza la estética limpia, mostrando únicamente la esfera y la fecha en formato numérico en la parte inferior. 
+Descripción: Un diseño clásico de esfera analógica. Las manecillas de hora, minutos y segundos son personalizables en color a través de la web. Este modo prioriza la estética limpia, mostrando únicamente la esfera y la fecha en formato numérico en la parte inferior. 
 ![analogico](/screenshot/reloj-analogico.jpg)
     
-    Descripción: Interfaz administrativa accesible vía navegador. Permite configurar el WiFi (SSID/Pass), la API Key de OpenWeather, la ciudad, los colores del reloj, el brillo general del panel y activar el "Modo Noche" automático.
+Descripción: Interfaz administrativa accesible vía navegador. Permite configurar el WiFi (SSID/Pass), la API Key de OpenWeather, la ciudad, los colores del reloj, el brillo general del panel y activar el "Modo Noche" automático.
 ![web](/screenshot/weather-web.png)
 
 📝 Instrucciones para Contribuir
