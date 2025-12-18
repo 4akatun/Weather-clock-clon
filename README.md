@@ -92,15 +92,3 @@ Descripción: Un diseño clásico de esfera analógica. Las manecillas de hora, 
     
 Descripción: Interfaz administrativa accesible vía navegador. Permite configurar el WiFi (SSID/Pass), la API Key de OpenWeather, la ciudad, los colores del reloj, el brillo general del panel y activar el "Modo Noche" automático.
 ![web](/screenshot/weather-web.png)
-
-📝 Instrucciones para Contribuir
-
-    Haz un Fork del proyecto.
-
-    Crea una nueva rama: git checkout -b feature/MejoraIncreible.
-
-    Haz tus cambios y un Commit: git commit -m 'Añadida nueva animación'.
-
-    Envía un Push a la rama: git push origin feature/MejoraIncreible.
-
-    Abre un Pull Request.
