@@ -61,14 +61,6 @@ Este proyecto no habría sido posible sin la ingeniería inversa y la informaci�
 
     Soporte Tasmota: Información técnica valiosa extraída de las discusiones en el GitHub de Tasmota sobre el hardware del SmallTV Pro.
 
-    Desarrollo del Firmware: Implementación de la lógica de carrusel, portal cautivo y gestión de colores por [Tu Nombre/Gemini].
-
-🛠️ Guía de Resolución de Problemas (Troubleshooting)
-Problema	Causa probable	Solución
-Pantalla en blanco/negro	Pin de Backlight incorrecto	Asegúrate de que TFT_BACKLIGHT esté en GPIO 5 y se inicie en digitalWrite(5, LOW).
-Colores invertidos	Configuración del driver ST7789	Si el rojo se ve azul, usa tft.invertDisplay(true) o false en el setup().
-No guarda la configuración	LittleFS no inicializado	Verifica que en platformio.ini tengas board_build.filesystem = littlefs y hayas ejecutado "Upload Filesystem Image".
-Hora incorrecta (NTP)	Desfase horario (Timezone)	Cambia el valor 3600 en NTPClient (3600 para GMT+1, 7200 para GMT+2, etc).
 🔌 Esquema de Conexión Interno (Referencia)
 
 Si has abierto el dispositivo o estás usando un NodeMCU externo para pruebas, este es el esquema de flujo de datos:
